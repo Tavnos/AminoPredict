@@ -6,9 +6,8 @@ def translate_n_seq():
     rna_typed = []
     dna_match = []
     reader = 0
-    base_list = 'a','t','g','c'
+    base_list = 'a','t','g','c','u'
     ans1 = input("Random dna sequence? y/n")
-    
     if ans1 == 'y':
         print("Choose length:")
         seq_len = int(input())
@@ -252,8 +251,8 @@ def translate_a_seq():
                 reader += 1
                 pass
             elif input_seq[reader] == 'T':
-                amino_name_typed.append('Threonine')
-                amino_letter_typed.append('Thr')
+                amino_name_typed.append('Tyrosine')
+                amino_letter_typed.append('Tyr')
                 possible_config0.append('tat')
                 possible_config1.append('tac')
                 possible_config2.append(''.join(random.choices(['tat','tac'],k=1)))
@@ -388,12 +387,12 @@ def translate_a_seq():
                 amino_name_typed.append('Asparagine')
                 amino_letter_typed.append('Asn')
                 possible_config0.append('aat')
-                possible_config1.append('aag')
-                possible_config2.append(''.join(random.choices(['aat','aag'],k=1)))
-                possible_config3.append(''.join(random.choices(['aat','aag'],k=1)))
-                possible_config4.append(''.join(random.choices(['aat','aag'],k=1)))
-                possible_config5.append(''.join(random.choices(['aat','aag'],k=1)))
-                possible_config6.append(''.join(random.choices(['aat','aag'],k=1)))
+                possible_config1.append('aac')
+                possible_config2.append(''.join(random.choices(['aat','aac'],k=1)))
+                possible_config3.append(''.join(random.choices(['aat','aac'],k=1)))
+                possible_config4.append(''.join(random.choices(['aat','aac'],k=1)))
+                possible_config5.append(''.join(random.choices(['aat','aac'],k=1)))
+                possible_config6.append(''.join(random.choices(['aat','aac'],k=1)))
                 reader += 1
                 pass
             elif input_seq[reader] == 'K':
