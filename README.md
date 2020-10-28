@@ -1,7 +1,18 @@
-# AminoPredict
-DNA/RNA translation, amino acid to protein folding, Random sequence options and prediction.
+# AminoPredict (v4)
+DNA/RNA translation to peptide:
+With resulting analytical overviews,
+ Currently as aerobic and anaerobic ATP costs,
+ functional side chain group structure,
+ monoisotopic mass, and soon the ability,
+ to narrow the analytical query to what is needed.
+ And some more thorough and illustrated outputs of
+ chemical properties with coloured and symbolic aspects.
+And,
+Peptide codon encodings prioritizing GC, AT,
+ max codon distribution, or any as a randomized
+ return output, and resulting base percentage.
 
+AminoPredict accepts RNA and DNA characters as inputs,
+ and more refinements are still planned.
 
-Basic tool for amino acid / protein translation, and DNA/RNA sequence #prediction. AminoPredict accepts both RNA and DNA as input and, Can predict their entire possible chronological sequence, along with giving a random sequence of any desired length. More refinements will be coming soon.
-
-Tav.
+Enjoy, Tav.
